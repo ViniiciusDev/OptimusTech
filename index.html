@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <!-- Reset CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Import StyleCSS -->
@@ -11,6 +15,61 @@
     <title>OptimusTech</title>
 </head>
 <body>
-    <h1>OptimusTech</h1>
+    <header>
+        <div class="navigation__container">
+            <div class="navigation__container-logo">
+                <img src="./app/img/logo.svg" alt="Logo OptimusTech">
+                <h1 class="navigation__container-logo--title">OptimusTech</h1>
+            </div>
+            <nav class="navigation__container-links">
+                <li class="navigation__container-links--items"><a href="#">Home</a></li>
+                <li class="navigation__container-links--items"><a href="#">Products</a></li>
+                <li class="navigation__container-links--items"><a href="#">Resources</a></li>
+                <li class="navigation__container-links--items"><a href="#">About Us</a></li>
+            </nav>
+            <div class="navigation__container-btn">
+                <button class="navigation__container-btn--login">Login</button>
+                <button class="navigation__container-btn--register">Register</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero__container">
+            <h3 class="hero__container--link">
+                About Us
+            </h3>
+            <h2 class="hero__container--title">
+                Por que somos diferentes?
+            </h2>
+            <p class="hero__container--text">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+
+        </section>
+
+        <section class="metrics__container">
+            <div class="metrics__container--items">
+                <h4 class="metrics__container--items-title">400+</h4>
+                <h5 class="metrics__container--items-subtitle">Projetos concluídos</h5>
+                <p class="metrics__container--items-content">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+            </div>
+            <div class="metrics__container--items">
+                <h4 class="metrics__container--items-title">100+</h4>
+                <h5 class="metrics__container--items-subtitle">Colaboradores</h5>
+                <p class="metrics__container--items-content">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
+            </div>
+            <div class="metrics__container--items">
+                <h4 class="metrics__container--items-title">20k</h4>
+                <h5 class="metrics__container--items-subtitle">Downloads</h5>
+                <p class="metrics__container--items-content">Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
+            </div>
+            <div class="metrics__container--items">
+                <h4 class="metrics__container--items-title">500+</h4>
+                <h5 class="metrics__container--items-subtitle">Reviews 5 estrelas</h5>
+                <p class="metrics__container--items-content">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
 </body>
 </html>
